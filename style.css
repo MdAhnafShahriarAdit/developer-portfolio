@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orangecol{
     color: orange;
 }
@@ -18,7 +21,6 @@ h1{
 .half-width{
     width: 50%;
     padding-left: 2%;
-    border-width: 10px 10px yellowgreen;
 }
 
 .half-width img{
@@ -44,3 +46,36 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.experi-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experi-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+    #web-dev-experi{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    }
+
+    #full-dev-experi{
+        border-left: 7px solid;
+    border-image: linear-gradient(rgb(114, 128, 250), tomato);
+    border-image-slice: 1;
+        
+    }
+
+    footer p{
+        text-align: center;
+    }
